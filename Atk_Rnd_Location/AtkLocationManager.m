@@ -65,6 +65,9 @@
     }
 }
 
+/*
+ * Allows the underlying CFLocationMAnager to be restarted with a new set of accuracy and distance filters.
+ */
 - (void)restartLocationManagerWithAccuracy:(CLLocationAccuracy)accuracy distanceFilter:(CLLocationDistance)distance
 {
     if(self.locationManager != nil) {
@@ -90,8 +93,7 @@
  *
  *  Discussion:
  *    Invoked when new locations are available.  Required for delivery of
- *    deferred locations.  If implemented, updates will
- *    not be delivered to locationManager:didUpdateToLocation:fromLocation:
+ *    deferred locations. 
  *
  *    locations is an array of CLLocation objects in chronological order.
  */
@@ -112,11 +114,20 @@
         }
     }
     
+    //
+    // Currenty we delegate the locations. It is certainly acceptable
+    // to send the location to the server here.
+    //
     if(filteredLocations.count > 0 && self.delegate && [self.delegate respondsToSelector:@selector(locationManager:didUpdateLocations:)]) {
         [self.delegate locationManager:self didUpdateLocations:filteredLocations];
     }
 }
 
+/*
+ * This was a test method for scheduling a Local Notification
+ * on the background. It was left here to provice an example of
+ * such. It may not be needed in the Whats Poppin application.
+ */
 - (void)scheduleNotification {
 
     NSDate *itemDate = [NSDate date];
