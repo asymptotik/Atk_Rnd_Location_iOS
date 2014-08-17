@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D2FE1E6199EB48C0071EF59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2FE1E5199EB48C0071EF59 /* Foundation.framework */; };
+		1D2FE1E8199EB48C0071EF59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2FE1E7199EB48C0071EF59 /* CoreGraphics.framework */; };
+		1D2FE1EA199EB48C0071EF59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2FE1E9199EB48C0071EF59 /* UIKit.framework */; };
+		1D2FE1F0199EB48C0071EF59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D2FE1EE199EB48C0071EF59 /* InfoPlist.strings */; };
+		1D2FE1F2199EB48C0071EF59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FE1F1199EB48C0071EF59 /* main.m */; };
+		1D2FE1F6199EB48C0071EF59 /* AtkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FE1F5199EB48C0071EF59 /* AtkAppDelegate.m */; };
+		1D2FE1F8199EB48C0071EF59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2FE1F7199EB48C0071EF59 /* Images.xcassets */; };
+		1D2FE21A199EB5920071EF59 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2FE219199EB5920071EF59 /* CoreLocation.framework */; };
+		1D2FE21E199ED5C00071EF59 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FE21D199ED5C00071EF59 /* NSString+Extensions.m */; };
+		1D2FE22119A092150071EF59 /* AtkLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FE22019A092150071EF59 /* AtkLocationManager.m */; };
+		1D2FE22419A09F560071EF59 /* AtkNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FE22319A09F560071EF59 /* AtkNetworkManager.m */; };
+		1D2FE22819A135A20071EF59 /* AtkLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FE22619A135A20071EF59 /* AtkLocationViewController.m */; };
+		1D2FE22919A135A20071EF59 /* AtkLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D2FE22719A135A20071EF59 /* AtkLocationViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D2FE1E2199EB48C0071EF59 /* Atk_Rnd_Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Atk_Rnd_Location.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2FE1E5199EB48C0071EF59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D2FE1E7199EB48C0071EF59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D2FE1E9199EB48C0071EF59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D2FE1ED199EB48C0071EF59 /* Atk_Rnd_Location-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Atk_Rnd_Location-Info.plist"; sourceTree = "<group>"; };
+		1D2FE1EF199EB48C0071EF59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D2FE1F1199EB48C0071EF59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D2FE1F3199EB48C0071EF59 /* Atk_Rnd_Location-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Atk_Rnd_Location-Prefix.pch"; sourceTree = "<group>"; };
+		1D2FE1F4199EB48C0071EF59 /* AtkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtkAppDelegate.h; sourceTree = "<group>"; };
+		1D2FE1F5199EB48C0071EF59 /* AtkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtkAppDelegate.m; sourceTree = "<group>"; };
+		1D2FE1F7199EB48C0071EF59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D2FE1FE199EB48C0071EF59 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1D2FE219199EB5920071EF59 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1D2FE21C199ED5C00071EF59 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
+		1D2FE21D199ED5C00071EF59 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
+		1D2FE21F19A092150071EF59 /* AtkLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtkLocationManager.h; sourceTree = "<group>"; };
+		1D2FE22019A092150071EF59 /* AtkLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtkLocationManager.m; sourceTree = "<group>"; };
+		1D2FE22219A09F560071EF59 /* AtkNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtkNetworkManager.h; sourceTree = "<group>"; };
+		1D2FE22319A09F560071EF59 /* AtkNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtkNetworkManager.m; sourceTree = "<group>"; };
+		1D2FE22519A135A20071EF59 /* AtkLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtkLocationViewController.h; sourceTree = "<group>"; };
+		1D2FE22619A135A20071EF59 /* AtkLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtkLocationViewController.m; sourceTree = "<group>"; };
+		1D2FE22719A135A20071EF59 /* AtkLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AtkLocationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D2FE1DF199EB48C0071EF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2FE21A199EB5920071EF59 /* CoreLocation.framework in Frameworks */,
+				1D2FE1E8199EB48C0071EF59 /* CoreGraphics.framework in Frameworks */,
+				1D2FE1EA199EB48C0071EF59 /* UIKit.framework in Frameworks */,
+				1D2FE1E6199EB48C0071EF59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D2FE1D9199EB48C0071EF59 = {
+			isa = PBXGroup;
+			children = (
+				1D2FE1EB199EB48C0071EF59 /* Atk_Rnd_Location */,
+				1D2FE1E4199EB48C0071EF59 /* Frameworks */,
+				1D2FE1E3199EB48C0071EF59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D2FE1E3199EB48C0071EF59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D2FE1E2199EB48C0071EF59 /* Atk_Rnd_Location.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D2FE1E4199EB48C0071EF59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D2FE219199EB5920071EF59 /* CoreLocation.framework */,
+				1D2FE1E5199EB48C0071EF59 /* Foundation.framework */,
+				1D2FE1E7199EB48C0071EF59 /* CoreGraphics.framework */,
+				1D2FE1E9199EB48C0071EF59 /* UIKit.framework */,
+				1D2FE1FE199EB48C0071EF59 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D2FE1EB199EB48C0071EF59 /* Atk_Rnd_Location */ = {
+			isa = PBXGroup;
+			children = (
+				1D2FE22519A135A20071EF59 /* AtkLocationViewController.h */,
+				1D2FE22619A135A20071EF59 /* AtkLocationViewController.m */,
+				1D2FE22719A135A20071EF59 /* AtkLocationViewController.xib */,
+				1D2FE1F4199EB48C0071EF59 /* AtkAppDelegate.h */,
+				1D2FE1F5199EB48C0071EF59 /* AtkAppDelegate.m */,
+				1D2FE21C199ED5C00071EF59 /* NSString+Extensions.h */,
+				1D2FE21D199ED5C00071EF59 /* NSString+Extensions.m */,
+				1D2FE21F19A092150071EF59 /* AtkLocationManager.h */,
+				1D2FE22019A092150071EF59 /* AtkLocationManager.m */,
+				1D2FE22219A09F560071EF59 /* AtkNetworkManager.h */,
+				1D2FE22319A09F560071EF59 /* AtkNetworkManager.m */,
+				1D2FE1F7199EB48C0071EF59 /* Images.xcassets */,
+				1D2FE1EC199EB48C0071EF59 /* Supporting Files */,
+			);
+			path = Atk_Rnd_Location;
+			sourceTree = "<group>";
+		};
+		1D2FE1EC199EB48C0071EF59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D2FE1ED199EB48C0071EF59 /* Atk_Rnd_Location-Info.plist */,
+				1D2FE1EE199EB48C0071EF59 /* InfoPlist.strings */,
+				1D2FE1F1199EB48C0071EF59 /* main.m */,
+				1D2FE1F3199EB48C0071EF59 /* Atk_Rnd_Location-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D2FE1E1199EB48C0071EF59 /* Atk_Rnd_Location */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D2FE20E199EB48C0071EF59 /* Build configuration list for PBXNativeTarget "Atk_Rnd_Location" */;
+			buildPhases = (
+				1D2FE1DE199EB48C0071EF59 /* Sources */,
+				1D2FE1DF199EB48C0071EF59 /* Frameworks */,
+				1D2FE1E0199EB48C0071EF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Atk_Rnd_Location;
+			productName = Atk_Rnd_Location;
+			productReference = 1D2FE1E2199EB48C0071EF59 /* Atk_Rnd_Location.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D2FE1DA199EB48C0071EF59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Atk;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Asymptotik Limited";
+				TargetAttributes = {
+					1D2FE1E1199EB48C0071EF59 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1D2FE1DD199EB48C0071EF59 /* Build configuration list for PBXProject "Atk_Rnd_Location" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D2FE1D9199EB48C0071EF59;
+			productRefGroup = 1D2FE1E3199EB48C0071EF59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D2FE1E1199EB48C0071EF59 /* Atk_Rnd_Location */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D2FE1E0199EB48C0071EF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2FE22919A135A20071EF59 /* AtkLocationViewController.xib in Resources */,
+				1D2FE1F0199EB48C0071EF59 /* InfoPlist.strings in Resources */,
+				1D2FE1F8199EB48C0071EF59 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D2FE1DE199EB48C0071EF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2FE22119A092150071EF59 /* AtkLocationManager.m in Sources */,
+				1D2FE22419A09F560071EF59 /* AtkNetworkManager.m in Sources */,
+				1D2FE22819A135A20071EF59 /* AtkLocationViewController.m in Sources */,
+				1D2FE1F2199EB48C0071EF59 /* main.m in Sources */,
+				1D2FE1F6199EB48C0071EF59 /* AtkAppDelegate.m in Sources */,
+				1D2FE21E199ED5C00071EF59 /* NSString+Extensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D2FE1EE199EB48C0071EF59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D2FE1EF199EB48C0071EF59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D2FE20C199EB48C0071EF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D2FE20D199EB48C0071EF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D2FE20F199EB48C0071EF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Atk_Rnd_Location/Atk_Rnd_Location-Prefix.pch";
+				INFOPLIST_FILE = "Atk_Rnd_Location/Atk_Rnd_Location-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D2FE210199EB48C0071EF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Atk_Rnd_Location/Atk_Rnd_Location-Prefix.pch";
+				INFOPLIST_FILE = "Atk_Rnd_Location/Atk_Rnd_Location-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D2FE1DD199EB48C0071EF59 /* Build configuration list for PBXProject "Atk_Rnd_Location" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D2FE20C199EB48C0071EF59 /* Debug */,
+				1D2FE20D199EB48C0071EF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D2FE20E199EB48C0071EF59 /* Build configuration list for PBXNativeTarget "Atk_Rnd_Location" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D2FE20F199EB48C0071EF59 /* Debug */,
+				1D2FE210199EB48C0071EF59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D2FE1DA199EB48C0071EF59 /* Project object */;
+}
